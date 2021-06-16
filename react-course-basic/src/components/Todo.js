@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-import Modal from "./Modal";
-import Backdrop from "./Backdrop";
+import Modal from './Modal';
+import Backdrop from './Backdrop';
 
 function Todo(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
